@@ -7,6 +7,7 @@ This template creates a new HDInsight HBase cluster with OpenTSDB installed and 
 </a>
 
 For Mooncake (Azure China) customers, please click the link below:
+
 <a href="https://portal.azure.cn/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhdinsight%2FIaas-Applications%2Fmaster%2FOpenTSDB%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
