@@ -6,6 +6,10 @@ This template creates a new HDInsight HBase cluster with OpenTSDB installed and 
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
+<a href="https://portal.azure.cn/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhdinsight%2FIaas-Applications%2Fmaster%2FOpenTSDB%2Fazuredeploy.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
+
 OpenTSDB ([http://opentsdb.net/](http://opentsdb.net/)) is a high performance, open source storage engine that allows users to 'Store and serve massive amounts of time series data without losing granularity.'.
 
 OpenTSDB uses Apache HBase to store its data. HBase is available in HDInsight as a pre-configured cluster type. This template provisions a new HDInsight HBase cluster with OpenTSDB installed and deployed to every HBase Region Server in the cluster. 
