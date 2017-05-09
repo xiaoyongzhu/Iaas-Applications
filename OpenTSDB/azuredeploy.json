@@ -167,7 +167,7 @@
         "storageProfile": {
           "storageaccounts": [
             {
-              "name": "[concat(variables('clusterStorageAccountName'),'.blob.core.windows.net')]",
+              "name": "[concat(variables('clusterStorageAccountName'),'.blob.core.chinacloudapi.cn')]",
               "isDefault": true,
               "container": "[parameters('clusterName')]",
               "key": "[listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('clusterStorageAccountName')), variables('defaultApiVersion')).key1]"
